@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="Pt-br" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Bernardo Diniz</title>
+</head>
+<body>
+    <div class="header-nav">
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>ldz_dev</h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#about_me" class="nav-link">Sobre mim</a></li>
+                    <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="btn-dark-mode">
+                <input type="checkbox" id="btn-mudar-tema" onclick="MudarTema()">
+                <button><a href=""><i class="fa-solid fa-moon" id="icon-btn-darkMode"></i></a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="images/imgs-menu/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <div class="nav-list">
+                <ul>   
+                    <li class="nav-item"><a href="#about_me" class="nav-link">Sobre mim</a></li>
+                    <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>                
+            </div>
+
+            <hr id="linha-menu"></hr>
+
+            <div class="redes-sociais-menu">
+                <p>Siga-me nas redes sociais:</p>
+                <a href="https://www.linkedin.com/in/bernardo-diniz-/" target="_blank"><i class="fa-brands fa-linkedin"></i>@bernardo.ldz</a>
+                <a href="https://github.com/bernardooldz" target="_blank"><i class="fa-brands fa-github"></i>@bernardo.ldz</a>
+                <a href="https://www.instagram.com/bernardo.ldz/?igsh=NzlwamdhYzJhbmpy" target="_blank"><i class="fa-brands fa-instagram"></i>@bernardo.ldz</a>
+            </div>
+
+            <div class="btn-dark-mode">
+                <input type="checkbox" id="btn-mudar-tema2" onclick="MudarTema2()">
+                <button><a href=""><i class="fa-solid fa-moon" id="icon-btn-darkMode"></i></a></button>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <h1 id="titulo_principal">Bernardo Diniz</h1>
+        <div class="container-subtitulo-principal">
+          <div class="typing-container">
+              <h2>&nbsp;<span typing-speed="70" typing-delay="1000" words="Programador FullStack,UI UX Design, Desenvolvedor Web"></span> </h2>
+          </div>
+      </div>
+
+        <div id="links_redes_sociais">
+            <a href="https://www.linkedin.com/in/bernardo-diniz-/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/bernardooldz" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/bernardo.ldz/?igsh=NzlwamdhYzJhbmpy" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </header>
+    
+    <main>
+
+    <section id="about_me">
+
+        <h1 class="titulos">Sobre mim</h1>
+        <hr  class="linha-titulos">
+
+        <div id="alinhamento_about">
+            
+            <div id="img_perfil">
+                <img src="images/foto-perfil-portifolio.jpg" alt="">
+            </div>
+
+            <div id="conteiner_grande_aboutme">
+                <p id="text_about_me">Olá! Sou Bernardo Diniz, um desenvolvedor fascinado por criar soluções tecnológicas e inovadoras. Com experiência em <span>HTML, CSS, JavaScript, SQL, C#</span> e em algumas outras tecnologias, transformo ideias em aplicativos e sistemas funcionais, sempre buscando a <span>melhor experiência para o usuário</span>. Sou detalhista e colaborativo, sempre pronto para enfrentar novos desafios e aprender com cada projeto. Fora do trabalho, sou apaixonado por futebol, música e tecnologia, o que me ajuda a manter a criatividade e a motivação em alta.</p>
+                
+                <div id="conteiner_socialmedias_aboutme">
+                    <a href="https://www.linkedin.com/in/bernardo-diniz-/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/bernardooldz" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/bernardo.ldz/?igsh=NzlwamdhYzJhbmpy" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <h1 class="titulos">Habilidades</h1>
+        <hr  class="linha-titulos">
+
+        <div id="conteiner_habilidades">
+            <div class="case-linguagem">
+                <img src="images/imgs- ling/html.png" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div class="case-linguagem">
+                <img src="images/imgs- ling/social.png" alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="case-linguagem">
+                <img src="images/imgs- ling/java-script.png" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="case-linguagem">
+                <img src="images/imgs- ling/c-sharp.png" alt="C#">
+                <p>C#</p>
+            </div>
+            <div class="case-linguagem">
+                <img src="images/imgs- ling/mysql.png" alt="MySQL">
+                <p>MySQL</p>
+            </div>
+            <div class="case-linguagem">
+                <img src="images/imgs- ling/nodejs.png" alt="NodeJS">
+                <p>NodeJS</p>
+            </div>
+            <div class="case-linguagem">
+                <img src="images/imgs- ling/science.png" alt="React">
+                <p>React</p>
+            </div>
+            <div class="case-linguagem">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1727px-Tux.svg.png" alt="LInux">
+                <p>Linux - Básico</p>
+            </div>
+            <div class="case-linguagem">
+                <img src="images/imgs- ling/social (1).png" alt="Git">
+                <p>Git</p>
+            </div>
+            <div class="case-linguagem">
+                <img src="images/imgs- ling/github.png" alt="Github">
+                <p>Github</p>
+            </div>
+            <div class="case-linguagem">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png" alt="VS Code">
+                <p>VS Code</p>
+            </div>
+            <div class="case-linguagem">
+                <img src="images/imgs- ling/figma.png" alt="Figma">
+                <p>Figma</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <h1 class="titulos">Projetos</h1>
+        <hr  class="linha-titulos">
+
+        <div id="conteiner_projetos">
+
+            <div class="card-projetos">
+                <img src="images/img-projetos/logo - orangeweather.png" alt="">
+                <p class="titulo-projeto">Previsão do Tempo</p>
+                <div class="tag-card-ling">
+                    <p class="tag">HTML</p>
+                    <p class="tag">CSS</p>
+                    <p class="tag">JavaScript</p>
+                    <p class="tag">API</p>
+                </div>                
+                <p class="desc-projeto">App sobre a previsão do tempo buscada a partir da API OpenWeatherMap.</p>
+                <div class="alinhamento-btn-card">
+                    <button class="btn-card"><a href="https://github.com/bernardooldz/previsao-do-tempo" target="_blank"><i class="fa-brands fa-github"></i>Código</a></button>
+
+                    <button class="btn-card"><a href="https://bernardooldz.github.io/previsao-do-tempo/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>Visitar</a></button>
+                </div>                
+            </div>
+
+            <div class="card-projetos">
+                <img src="images/img-projetos/logo-mundisearch.png" alt="">
+                <p class="titulo-projeto">MundiSearch</p>
+                <div class="tag-card-ling">
+                    <p class="tag">HTML</p>
+                    <p class="tag">CSS</p>
+                    <p class="tag">JavaScript</p>
+                </div>                
+                <p class="desc-projeto">Aplicativo web de pesquisa e exibição de dados sobre países.</p>
+                <div class="alinhamento-btn-card">
+                    <button class="btn-card"><a href="https://github.com/bernardooldz/MundiSearch" target="_blank"><i class="fa-brands fa-github"></i>Código</a></button>
+
+                    <button class="btn-card"><a href="https://bernardooldz.github.io/MundiSearch/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>Visitar</a></button>
+                </div>                
+            </div>
+
+            <div class="card-projetos">
+                <img src="images/img-projetos/logo - calcIMC.png" alt="">
+                <p class="titulo-projeto">Calculadora de IMC</p>
+                <div class="tag-card-ling">
+                    <p class="tag">HTML</p>
+                    <p class="tag">CSS</p>
+                    <p class="tag">JavaScript</p>
+                </div>                
+                <p class="desc-projeto">Aplicativo web de calculadora de IMC.</p>
+                <div class="alinhamento-btn-card">
+                    <button class="btn-card"><a href="https://github.com/bernardooldz/calculadora-IMC" target="_blank"><i class="fa-brands fa-github"></i>Código</a></button>
+
+                    <button class="btn-card"><a href="https://bernardooldz.github.io/calculadora-IMC/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>Visitar</a></button>
+                </div>                
+            </div>
+
+            <div class="card-projetos">
+                <img src="images/img-projetos/logo - saladaesabor.png" alt="">
+                <p class="titulo-projeto">Salada&Sabor</p>
+                <div class="tag-card-ling">
+                    <p class="tag">HTML</p>
+                    <p class="tag">CSS</p>
+                </div>                
+                <p class="desc-projeto">Landing Page (Front-End) de um restaurante com foco em saladas.</p>
+                <div class="alinhamento-btn-card">
+                    <button class="btn-card"><a href="https://github.com/bernardooldz/Salada-Sabor" target="_blank"><i class="fa-brands fa-github"></i>Código</a></button>
+
+                    <button class="btn-card"><a href="https://saladaesabor.netlify.app/cardapio" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>Visitar</a></button>
+                </div>                
+            </div>
+
+            <div class="card-projetos">
+                <img src="images/img-projetos/nlw-pocket.webp" alt="">
+                <p class="titulo-projeto">Lista de Tarefas</p>
+                <div class="tag-card-ling">
+                    <p class="tag">JavaScript</p>
+                    <p class="tag">NodeJS</p>
+                </div>                
+                <p class="desc-projeto">Um projeto NodeJS desenvolvido durante a NLW de uma lista de tarefas.</p>
+                <div class="alinhamento-btn-card">
+                    <button class="btn-card"><a href="https://github.com/bernardooldz/to-do-list-nwl17" target="_blank"><i class="fa-brands fa-github"></i>Código</a></button>
+                 </div>                
+            </div>
+
+            <div class="card-projetos">
+                <img src="images/img-projetos/logo - atvsCs.png" alt="">
+                <p class="titulo-projeto">Projetos C#</p>
+                <div class="tag-card-ling">
+                    <p class="tag">C#</p>
+                </div>                
+                <p class="desc-projeto">Repositório de projetos feitos em C#</p>
+                <div class="alinhamento-btn-card">
+                    <button class="btn-card"><a href="https://github.com/bernardooldz/Atividades-CSharp" target="_blank"><i class="fa-brands fa-github"></i>Código</a></button>
+                </div>                
+            </div>         
+            
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="titulos">Contato</h1>
+        <hr class="linha-titulos">
+
+        <div id="conteiner_grande_contact">
+            <p>Gostou do meu trabalho?</p>
+            <p>Entre em contato comigo e vamos marcar uma conversa!</p>
+
+            <button onclick="abrirModal()" class="open-modal-btn">Contato  <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+
+            <div id="overlay" class="overlay" onclick="fecharModal()"></div>
+        
+            <div id="modal" class="modal">
+                <h2>Formulário de Contato</h2>
+                <hr class="linha-titulos-contact">
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        
+                    <button type="submit">Enviar</button>
+                </form>
+                <button onclick="fecharModal()" class="close-modal-btn">Fechar</button>
+            </div>            
+        </div>
+
+        <div id="conteiner_redes_socias_contact">
+            <h1>Siga minhas redes socias e acompanhe mais do meu trabalho</h1>
+            <hr class="linha-titulos-contact">
+
+            <div id="mini_box_contact">
+                <a href="https://www.linkedin.com/in/bernardo-diniz-/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/bernardooldz" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/bernardo.ldz/?igsh=NzlwamdhYzJhbmpy" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    </main>
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <div class="logo">
+                    <h1>ldz_dev</h1>
+                </div>
+                <p>"Conectando pessoas e tecnologia"</p>
+
+                <div id="footer_social_media">
+                    <a href="https://www.instagram.com/bernardo.ldz/?igsh=NzlwamdhYzJhbmpy" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/bernardooldz" class="footer-link" id="github">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/bernardo-diniz-/" class="footer-link" id="linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Navegação</h3>
+                </li>
+                <li>
+                    <a href="#about_me" class="footer-link">Sobre</a>
+                </li>
+                <li>
+                    <a href="#habilidades" class="footer-link">Habilidades</a>
+                </li>
+                <li>
+                    <a href="#projetos" class="footer-link">Projetos</a>
+                </li>
+                <li>
+                    <a href="#contact" class="footer-link">Contato</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Redes Sociais</h3>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/bernardo.ldz/?igsh=NzlwamdhYzJhbmpy" class="footer-link">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://github.com/bernardooldz" class="footer-link">Github</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/bernardo-diniz-/" class="footer-link">Linkedin</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Subscribe</h3>
+                <p>Entre em contato comigo via email!</p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2024 Todos os direitos reservados
+        </div>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>
