@@ -13,6 +13,10 @@ Este portfólio foi desenvolvido com o intuito de praticar os fundamentos de **H
 - 🧑 **Quem sou eu**: Uma breve apresentação pessoal.  
 - 🛠 **Minhas habilidades**: Tecnologias e ferramentas que estou aprendendo.  
 - 📂 **Projetos**: Alguns dos projetos que já desenvolvi como estudante.
+---
+
+## 🔗 **Acesse por aqui**
+🌐 [Portifólio](https://bernardooldz.github.io/portifolio/)
 
 ---
 
