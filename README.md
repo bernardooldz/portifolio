@@ -1,4 +1,4 @@
-# 📁 **Portfólio Dev - Atividade Acadêmica**
+# 📁 **Portfólio Dev **
 
 Este projeto é um **site de portfólio** desenvolvido como parte de uma atividade escolar obrigatória no curso técnico de TI. Ele apresenta quem sou, minhas habilidades e alguns projetos que já desenvolvi até o momento.
 
@@ -33,4 +33,4 @@ Este portfólio foi desenvolvido com o intuito de praticar os fundamentos de **H
 
 ---
 
-⚠️ **Observação:** Este site não foi criado para fins profissionais e serve apenas como um exercício acadêmico de aprendizado.
+⚠️ **Observação:** Este site não foi criado para fins 100% profissionais mas sim como um exercício acadêmico de aprendizado.
