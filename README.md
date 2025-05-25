@@ -1,4 +1,4 @@
-# 📁 **Portfólio Dev **
+# 📁 **Portfólio Dev**
 
 Este projeto é um **site de portfólio** desenvolvido como parte de uma atividade escolar obrigatória no curso técnico de TI. Ele apresenta quem sou, minhas habilidades e alguns projetos que já desenvolvi até o momento.
 
